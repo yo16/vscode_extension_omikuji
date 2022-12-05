@@ -8,8 +8,17 @@ export function activate(context: vscode.ExtensionContext) {
 
 		vscode.window.showInformationMessage(`あなたの運勢は${omikujiResult}です！！`);
 	});
-
 	context.subscriptions.push(disposable);
+
+	
+	const button = vscode.window.createStatusBarItem(
+		vscode.StatusBarAlignment.Right,
+		0
+	);
+	button.command = 'vscode-omikuji-yo16.openOmikuji';
+	button.text = 'おみくじをひく';
+	context.subscriptions.push(button);
+	button.show();
 }
 
 
