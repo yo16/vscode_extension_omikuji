@@ -1,0 +1,2 @@
+# vscode_extension_omikuji
+VSCode機能拡張でおみくじを作る
