@@ -1,0 +1,19 @@
+{
+  "name": "vscode_extension_omikuji",
+  "version": "1.0.0",
+  "description": "VSCode機能拡張でおみくじを作る",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@home.github.com:yo16/vscode_extension_omikuji.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "generator-code": "^1.7.2",
+    "yo": "^4.3.1"
+  }
+}
