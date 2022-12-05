@@ -2,7 +2,8 @@
 VSCode機能拡張でおみくじを作る
 
 # 参考
-https://qiita.com/HelloRusk/items/073b58c1605de224e67e
+- [VSCode Extensions(拡張機能) 自作入門 〜VSCodeにおみくじ機能を追加する〜 | Qiita ](https://qiita.com/HelloRusk/items/073b58c1605de224e67e)
+- [Extension API | Visual Studio Code ](https://code.visualstudio.com/api)
 
 # 作業メモ
 
