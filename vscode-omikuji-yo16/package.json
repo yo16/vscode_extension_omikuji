@@ -10,14 +10,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:vscode-omikuji-yo16.helloWorld"
+    "onCommand:vscode-omikuji-yo16.openOmikuji"
   ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "vscode-omikuji-yo16.helloWorld",
-        "title": "Hello World"
+        "command": "vscode-omikuji-yo16.openOmikuji",
+        "title": "Open OMIKUJI"
       }
     ]
   },
