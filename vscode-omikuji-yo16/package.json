@@ -10,7 +10,7 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:vscode-omikuji-yo16.openOmikuji"
+    "*"
   ],
   "main": "./dist/extension.js",
   "contributes": {

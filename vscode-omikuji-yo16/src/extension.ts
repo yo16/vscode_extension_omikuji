@@ -6,7 +6,7 @@ export function activate(context: vscode.ExtensionContext) {
 		const omikujiCandidates = ['大吉', '吉', '中吉', '小吉', '末吉', '凶', '大凶'];
 		const omikujiResult = omikujiCandidates[Math.floor(Math.random()*omikujiCandidates.length)];
 
-		vscode.window.showInformationMessage(`あなたの運勢は${omikujiResult}です！`);
+		vscode.window.showInformationMessage(`あなたの運勢は${omikujiResult}です！！`);
 	});
 
 	context.subscriptions.push(disposable);
